@@ -15,7 +15,7 @@ spec:
         app: studentsurveyapi
     spec:
       containers:
-      - image: cparupal/studentsurveyapi:50
+      - image: cparupal/studentsurveyapi:1
         imagePullPolicy: Always
         name: studentsurvey
         ports:
